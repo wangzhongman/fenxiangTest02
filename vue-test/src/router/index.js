@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloFenXiang from '@/components/test'
+import HelloFenXiang from '@/pages/test'
 
 Vue.use(Router)
 

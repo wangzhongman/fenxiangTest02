@@ -1,0 +1,82 @@
+body{padding: 16px;margin: 0;background-color: black;font-family: 微软雅黑;}
+ul{margin: 0;padding: 0;}
+.sell{
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header img{
+    height: 48px;
+    width: 48px;
+    padding-right: 6px;
+}
+.header h3{
+    color: #94C890;
+    line-height: 12px;
+    font-weight: 500;
+}
+.content{
+    margin-top: 34px;
+    overflow: hidden;
+}
+.content ul{
+    list-style: none;
+}
+.content ul li{
+    float: left;
+    display: flex;
+    /*width: 154px;*/
+    width: 50%;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+.content li img{
+    width: 32px;
+    height: 32px;
+    padding: 0 9px 0 3px;
+    border-right: 1px solid #F2F2F2;
+}
+.content li .detail{
+    padding-left: 8px;
+}
+.content li .detail span:first-child{
+    content: none;
+    font-family: 华文细黑;
+    line-height: 30px;
+    color: #8A93A0;
+    font-size: 32px;
+}
+.content li .detail span:nth-child(2){
+    content: none;
+    color: #8A93A0;
+    font-size: 11px;
+    margin-left: -2px;
+}
+.content li .detail p{
+    margin: 10px 0;
+    font-size: 12px;
+    letter-spacing:0.5px;
+    font-weight: normal;
+}
+/*特殊的字体*/
+.content .special .detail span:nth-child(1){
+    font-size: 18px;
+}
+.content .special .detail span:nth-child(1) i{
+    font-size: 12px;
+}
+.content .special .detail span:nth-child(2){
+    font-size: 18px;
+    color: #F2F2F2;
+}
+.content .special .detail span:nth-child(3){
+    font-size: 17px;
+    color: #8A93A0;
+}
+.content .special .detail span:nth-child(3) i{
+    font-size: 11px;
+}
